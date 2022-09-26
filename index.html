@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="container main-nav">
+        <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
+        <ul class="site-nav list">
+          <li class="item"><a href="" class="link primary">Студия</a></li>
+          <li class="item"><a href="" class="link">Портфолио</a></li>
+          <li class="item"><a href="" class="link">Контакты</a></li>
+        </ul>
+        <ul class="contact-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">
+              <svg class="icon" width="16" height="12">
+                <use href="images/svg/symbol-defs.svg#icon-email"></use>
+              </svg>
+              <p>info@devstudio.com</p>
+            </a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">
+              <svg class="icon" width="10" height="16">
+                <use href="images/svg/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              <p>+38 096 111 11 11</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container container-hero">
+          <div class="container-flex">
+            <h1>Эффективные решения для вашего бизнеса</h1>
+            <button data-modal-open type="button" class="button-hero button">
+              Заказать услугу
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section-advantage">
+        <div class="container">
+          <ul class="advantage-list list">
+            <li class="item">
+              <div class="tumba-advantage">
+                <svg class="icon" width="70" height="65">
+                  <use href="./images/svg/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="advantage-caption">Внимание к деталям</h3>
+              <p class="advantage-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="item">
+              <div class="tumba-advantage">
+                <svg class="icon" width="70" height="65">
+                  <use href="./images/svg/symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="advantage-caption">Пунктуальность</h3>
+              <p class="advantage-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="item">
+              <div class="tumba-advantage">
+                <svg class="icon" width="70" height="65">
+                  <use href="./images/svg/symbol-defs.svg#icon-computer"></use>
+                </svg>
+              </div>
+              <h3 class="advantage-caption">Планирование</h3>
+              <p class="advantage-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="item">
+              <div class="tumba-advantage">
+                <svg class="icon" width="55" height="60">
+                  <use href="./images/svg/symbol-defs.svg#icon-cosmos"></use>
+                </svg>
+              </div>
+              <h3 class="advantage-caption">Современные технологии</h3>
+              <p class="advantage-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="development-section">
+        <div class="container">
+          <h2 class="development-title">Чем мы занимаемся</h2>
+          <ul class="development-list list">
+            <li>
+              <img
+                src="./images/desktop.jpg"
+                alt="Разработка для ПК"
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/mobile.jpg"
+                alt="Разработка для телефонов"
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/tablet.jpg"
+                alt="Разработка для планшетов"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-team">
+        <div class="container">
+          <h2 class="title-team">Наша команда</h2>
+          <ul class="team-list list">
+            <li class="person-card">
+              <img src="./images/igor.jpg" alt="Игорь Демьяненко" width="270" />
+              <h3 class="title">Игорь Демьяненко</h3>
+              <p lang="en" class="text">Product Designer</p>
+              <div class="tumba-list">
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="16">
+                    <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="10" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="person-card">
+              <img src="./images/olga.jpg" alt="Ольга Репина" width="270" />
+              <h3 class="title">Ольга Репина</h3>
+              <p lang="en" class="text">Frontend Developer</p>
+              <div class="tumba-list">
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="16">
+                    <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="10" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="person-card">
+              <img
+                src="./images/nikolay.jpg"
+                alt="Николай Тарасов"
+                width="270"
+              />
+              <h3 class="title">Николай Тарасов</h3>
+              <p lang="en" class="text">Marketing</p>
+              <div class="tumba-list">
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="16">
+                    <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="10" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="person-card">
+              <img src="./images/mihail.jpg" alt="Михаил Ермаков" width="270" />
+              <h3 class="title">Михаил Ермаков</h3>
+              <p lang="en" class="text">UI Designer</p>
+              <div class="tumba-list">
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="16">
+                    <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="10" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="tumba-icon team-icon">
+                  <svg class="icon" width="20" height="20">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-clients">
+        <div class="container">
+          <h2 class="title-clients">Постоянные клиенты</h2>
+          <ul class="list-clients list">
+            <li class="client-item">
+              <a href="" class="link">
+                <svg class="icon" width="41" height="46">
+                  <use href="./images/svg/symbol-defs.svg#icon-company1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="" class="link">
+                <svg class="icon" width="38" height="34">
+                  <use href="./images/svg/symbol-defs.svg#icon-company2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="" class="link">
+                <svg class="icon" width="43" height="41">
+                  <use href="./images/svg/symbol-defs.svg#icon-company3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="" class="link">
+                <svg class="icon" width="55" height="60">
+                  <use href="./images/svg/symbol-defs.svg#icon-company4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="" class="link">
+                <svg class="icon" width="55" height="60">
+                  <use href="./images/svg/symbol-defs.svg#icon-company5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="" class="link">
+                <svg class="icon" width="55" height="60">
+                  <use href="./images/svg/symbol-defs.svg#icon-company6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-tumba">
+        <div class="footer-wrap">
+          <div class="logo-wrap">
+            <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
+          </div>
+          <address class="adress">
+            <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
+          </address>
+          <p class="email">info@devstudio.com</p>
+          <p class="phone">+38 096 111 11 11</p>
+        </div>
+        <div>
+          <p class="text-icon">присоединяйтесь</p>
+          <div class="tumba-list footer-list">
+            <div class="tumba-icon footer-icon">
+              <svg class="icon" width="20" height="20">
+                <use href="./images/svg/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </div>
+            <div class="tumba-icon footer-icon">
+              <svg class="icon" width="20" height="16">
+                <use href="./images/svg/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </div>
+            <div class="tumba-icon footer-icon">
+              <svg class="icon" width="10" height="20">
+                <use href="./images/svg/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </div>
+            <div class="tumba-icon footer-icon">
+              <svg class="icon" width="20" height="20">
+                <use href="./images/svg/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close type="button" class="backdrop-button">
+          <svg width="11" height="11" class="icon">
+            <path
+              d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
+              fill="black"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
